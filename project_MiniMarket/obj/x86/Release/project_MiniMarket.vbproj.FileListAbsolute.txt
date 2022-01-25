@@ -1,0 +1,11 @@
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.vbproj.ResolveComReference.cache
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.Login.resources
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.MasterAdmin.resources
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.MasterBarang.resources
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.MasterKategoriBarang.resources
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.MasterSupplier.resources
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.MenuUtama.resources
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.Resources.resources
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.TransPenjualanBarang.resources
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.TransTerimaBarang.resources
+D:\proses\project_MiniMarket\project_MiniMarket\obj\x86\Release\project_MiniMarket.vbproj.GenerateResource.Cache

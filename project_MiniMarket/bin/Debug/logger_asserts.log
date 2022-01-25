@@ -1,0 +1,14 @@
+21:14:19 (1424, 2692), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+21:14:19 (1424, 2692), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+21:18:49 (3772, 2096), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+21:18:49 (3772, 2096), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+0:32:22 (2572, 2452), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+0:32:22 (2572, 2452), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+1:0:23 (604, 2860), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+1:0:23 (604, 2860), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+11:2:24 (3348, 2796), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+11:2:24 (3348, 2796), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+14:16:18 (312, 872), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+14:16:18 (312, 872), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+16:18:8 (3376, 3476), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0
+16:18:8 (3376, 3476), (1, 1, 33009),  Info: RegCreateKeyEx(System\CurrentControlSet\Services\EventLog\Application\Crystal_crw32) failed. Error code: 5 Location: Y:\silib\slib\src\registry.cpp,501 expr: 0

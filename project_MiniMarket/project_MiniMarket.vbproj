@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{864C7C10-A084-4556-8299-609F3B9848BD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>project_MiniMarket.My.MyApplication</StartupObject>
+    <RootNamespace>project_MiniMarket</RootNamespace>
+    <AssemblyName>project_MiniMarket</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>project_MiniMarket.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>project_MiniMarket.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'minimarket|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\minimarket\</OutputPath>
+    <DocumentationFile>project_MiniMarket.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\project_MiniMarket.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Laporan.Designer.vb">
+      <DependentUpon>Laporan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterAdmin.Designer.vb">
+      <DependentUpon>MasterAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterBarang.Designer.vb">
+      <DependentUpon>MasterBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterKategoriBarang.Designer.vb">
+      <DependentUpon>MasterKategoriBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterKategoriBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterSupplier.Designer.vb">
+      <DependentUpon>MasterSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MasterSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUtama.Designer.vb">
+      <DependentUpon>MenuUtama.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TransPenjualanBarang.Designer.vb">
+      <DependentUpon>TransPenjualanBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TransPenjualanBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransTerimaBarang.Designer.vb">
+      <DependentUpon>TransTerimaBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TransTerimaBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Laporan.resx">
+      <DependentUpon>Laporan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterAdmin.resx">
+      <DependentUpon>MasterAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterBarang.resx">
+      <DependentUpon>MasterBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterKategoriBarang.resx">
+      <DependentUpon>MasterKategoriBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterSupplier.resx">
+      <DependentUpon>MasterSupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUtama.resx">
+      <DependentUpon>MenuUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransPenjualanBarang.resx">
+      <DependentUpon>TransPenjualanBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransTerimaBarang.resx">
+      <DependentUpon>TransTerimaBarang.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxCRVIEWERLib">
+      <Guid>{C4847593-972C-11D0-9567-00A0C9273C2A}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxCrystal">
+      <Guid>{00025600-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="CRVIEWERLib">
+      <Guid>{C4847593-972C-11D0-9567-00A0C9273C2A}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Crystal">
+      <Guid>{00025600-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
